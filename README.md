@@ -6,7 +6,7 @@ A simple homelab/portfolio demonstration of my practical networking knowledge an
 ## Hardware
 
 - 1x Switch - WS-C2960S-48TD-L
-- 1x [[Troubleshooting/Router]] - CCR1009-7G-1-1S+ MikroTik
+- 1x [Router](Troubleshooting/Router.md) - CCR1009-7G-1-1S+ MikroTik
 - 1x Server - HP Z420
 	- CPU: Intel Xeon E5-1650 v2
 	- RAM: 24 GB DDR3 ECC

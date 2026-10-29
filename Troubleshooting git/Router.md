@@ -7,14 +7,14 @@ I had to call my ISP to enable Bridge mode on my ISP's router so I could unlock 
 
 After Bridge mode was turned on my ISP router I had to do some configuration on RouterOS, I had to allow remote requests and set the DNS servers to 1.1.1.1 and 8.8.8.8 to avoid a DNS blockage
 
-![[repo/Pictures/Router 4.png|423]]
+![423](repo/Pictures/Router%204.png)
 
 
 ## DHCP 
 
 My router was not distributing IP addresses so I had to setup a DHCP server.
 
-![[repo/Pictures/Router 2.png]]![[repo/Pictures/Router 1.png|375]]
+![Router 2](repo/Pictures/Router%202.png)![375](repo/Pictures/Router%201.png)
 
 I created a network pool named "dhcp_pool2" using 192.168.88.0/24 with the gateway 192.168.88.1 since thats the IP address of the router. I excluded the first 10 addresses of the pool as those are reserved for future scalability.
 
@@ -22,7 +22,7 @@ For DNS Servers I decided to use Cloudflare's 1.1.1.1 and Google's 8.8.8.8
 
 After setting up everything I set the DHCP server to the "bridge1" interface 
 
-![[repo/Pictures/Router 3.png|384]]
+![384](repo/Pictures/Router%203.png)
 
 After setting up everything and doing ipconfig /renew on the cmd, I had access to the internet.
 
