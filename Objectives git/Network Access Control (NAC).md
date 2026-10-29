@@ -12,6 +12,6 @@ It's responsible for:
 
 On my homelab, running a NAC allows me to simulate enterprise-grade network segmentation.
 
-I will be using PacketFence, its both a NAC and a [[repo/Objectives 1/RADIUS]] server
+I will be using PacketFence, its both a NAC and a [[repo/Objectives git/RADIUS]] server
 
 

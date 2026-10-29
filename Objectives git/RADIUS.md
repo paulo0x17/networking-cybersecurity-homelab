@@ -12,7 +12,7 @@ It's responsible for:
 
 On my homelab, running a RADIUS server allows me to implement enterprise-grade 802.1X network authentication for Wi-Fi and switches.
 
-I will be using PacketFence, its both a [[repo/Objectives 1/Network Access Control (NAC)]] and a RADIUS server.
+I will be using PacketFence, its both a [[repo/Objectives git/Network Access Control (NAC)]] and a RADIUS server.
 
 In order to even setup the NAC I'll need to setup the RADIUS first, so lets start with that.
 
