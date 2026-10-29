@@ -19,7 +19,7 @@ Enable NTP Server on MikroTik (so the switch can query the router):
 ```
 
 On Winbox, System > NTP Server
-![Pasted image 20261028201647](/Pictures/Pasted%20image%2020261028201647.png)
+![Pasted image 20261028201647](Pictures/Pasted%20image%2020261028201647.png)
 Confirming that ``Enabled`` is checked.
 
 
