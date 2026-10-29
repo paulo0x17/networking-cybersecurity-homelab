@@ -15,7 +15,7 @@ First I will set it up on my router using the following commands:
 /interface bonding add name=bond1 mode=802.3ad slaves=ether2,ether3
 ```
 
-![[VLAN 1.png]]
+![[repo/Pictures/VLAN 1.png]]
 
 Then on the switch I will configure the rest of the LAG using LACP:
 ```
@@ -36,12 +36,12 @@ Now the LAG is up and running, to confirm it we can run the following commands:
 
 On the router CLI, I can confirm with
 ``/interface bonding monitor bond1
-![[Pasted image 20261028123922.png]]
+![[repo/Pictures/Pasted image 20261028123922.png]]
 They're both active
 
 Now on the switch CLI I can confirm with
 ``show etherchannel summary
-![[Pasted image 20261028124142.png|527]]
+![[repo/Pictures/Pasted image 20261028124142.png|527]]
 It says (SU) meaning its working on Layer2 and that its in use
 
 ## Setup
@@ -102,7 +102,7 @@ no shutdown
 ```
 
 After running ``ipconfig /release`` and ``ipconfig /renew``, I regained internet access alongside the VLAN IP
-![[Pasted image 20261028132047.png]]
+![[repo/Pictures/Pasted image 20261028132047.png]]
 
 Since I also changed the server's IP address, I need to assign a new static address so that it can be accessed through the browser.
 ```
